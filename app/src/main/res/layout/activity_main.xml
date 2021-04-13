@@ -27,4 +27,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
+
+    <ScrollView
+        android:id="@+id/scroll_Window"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/message_Window"
+        android:text="@string/message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFFFF"/>
+
 </LinearLayout>
