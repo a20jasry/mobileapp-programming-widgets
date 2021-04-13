@@ -15,5 +15,16 @@
         android:src="@drawable/pillar"
         android:layout_centerInParent="true" />
 
-
+    <TextView
+        android:id="@+id/title_Window"
+        android:text="Pillar 2: BODY"
+        android:layout_margin="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#36393F"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" />
 </LinearLayout>
