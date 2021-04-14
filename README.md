@@ -77,5 +77,5 @@ just called the information from the file using the code line "android:text="@st
     </string>
 ```
 
-![bild.png]
+![](bild.png)
 
