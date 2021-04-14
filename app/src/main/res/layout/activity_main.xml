@@ -10,36 +10,44 @@
 
 
     <ImageView
+        android:id="@+id/picture"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:src="@drawable/pillar"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:contentDescription="a picture" />
 
     <TextView
         android:id="@+id/title_Window"
         android:text="Pillar 2: BODY"
+       android:textStyle="bold"
         android:layout_margin="15dp"
         android:textColor="#FFFFFF"
         android:background="#36393F"
         android:textSize="25sp"
         android:typeface="serif"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center" />
 
+
     <ScrollView
-        android:id="@+id/scroll_Window"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
 
+        <TextView
+            android:id="@+id/message_Window"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/message"
+            android:textColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/message_Window"
-        android:text="@string/message"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
-        android:textColor="#FFFFFF"/>
+    </ScrollView>
+
 
 </LinearLayout>
